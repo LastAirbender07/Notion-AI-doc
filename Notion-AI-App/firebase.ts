@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBuBtJ9hoO1vU3fJdBmMWupVwV71ETG9KU",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "notion-ai-63b73.firebaseapp.com",
   projectId: "notion-ai-63b73",
   storageBucket: "notion-ai-63b73.firebasestorage.app",
